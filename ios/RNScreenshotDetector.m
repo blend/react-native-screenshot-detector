@@ -30,7 +30,7 @@ RCT_EXPORT_MODULE();
 }
 
 - (void)screenshotDetected:(NSNotification *)notification {
-    [self.bridge.eventDispatcher sendAppEventWithName:@"ScreenshotTaken" body:notification];
+    [self.bridge.eventDispatcher sendAppEventWithName:@"ScreenshotTaken" body:nil];
 }
 
 @end
