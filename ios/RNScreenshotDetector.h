@@ -4,8 +4,8 @@
 //  Created by Graham Carling on 1/11/17.
 //
 
-#import "RCTEventEmitter.h"
-#import "RCTBridgeModule.h"
+#import <React/RCTEventEmitter.h>
+#import <React/RCTBridgeModule.h>
 
 @interface RNScreenshotDetector : RCTEventEmitter <RCTBridgeModule>
 
