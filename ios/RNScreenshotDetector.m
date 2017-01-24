@@ -4,7 +4,7 @@
 //  Created by Graham Carling on 1/11/17.
 //
 
-#import <React/RNScreenshotDetector.h>
+#import "RNScreenshotDetector.h"
 #import <React/RCTBridge.h>
 #import <React/RCTEventDispatcher.h>
 
