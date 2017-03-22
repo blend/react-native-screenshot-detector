@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		BFE7D3921E830F7000DBDD2E /* RNScreenshotDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE7D3901E830F7000DBDD2E /* RNScreenshotDetector.m */; };
+		BFE7D3AD1E83123B00DBDD2E /* RNScreenshotDetector.m in CopyFiles */ = {isa = PBXBuildFile; fileRef = BFE7D3901E830F7000DBDD2E /* RNScreenshotDetector.m */; };
+		BFE7D3AE1E83123B00DBDD2E /* RNScreenshotDetector.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BFE7D3911E830F7000DBDD2E /* RNScreenshotDetector.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -17,6 +19,8 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				BFE7D3AD1E83123B00DBDD2E /* RNScreenshotDetector.m in CopyFiles */,
+				BFE7D3AE1E83123B00DBDD2E /* RNScreenshotDetector.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
