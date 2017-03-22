@@ -1,7 +1,7 @@
 
 # react-native-screenshot-detector
 
-Note: this project is designed to work with the newer version of React Native library imports: namely, React Nave >= 0.40.0
+Note: this project is designed to work with the newer version of React Native library imports, i.e. React Native >= 0.40.0
 
 ## Getting started
 
