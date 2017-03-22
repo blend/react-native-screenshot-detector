@@ -10,6 +10,7 @@
 		BFE7D3921E830F7000DBDD2E /* RNScreenshotDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE7D3901E830F7000DBDD2E /* RNScreenshotDetector.m */; };
 		BFE7D3AD1E83123B00DBDD2E /* RNScreenshotDetector.m in CopyFiles */ = {isa = PBXBuildFile; fileRef = BFE7D3901E830F7000DBDD2E /* RNScreenshotDetector.m */; };
 		BFE7D3AE1E83123B00DBDD2E /* RNScreenshotDetector.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BFE7D3911E830F7000DBDD2E /* RNScreenshotDetector.h */; };
+		BFE7D4131E83244000DBDD2E /* RNScreenshotDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = BFE7D3911E830F7000DBDD2E /* RNScreenshotDetector.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -62,6 +63,17 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		BFE7D4121E83243A00DBDD2E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFE7D4131E83244000DBDD2E /* RNScreenshotDetector.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		58B511DA1A9E6C8500147676 /* RNScreenshotDetector */ = {
 			isa = PBXNativeTarget;
@@ -70,6 +82,7 @@
 				58B511D71A9E6C8500147676 /* Sources */,
 				58B511D81A9E6C8500147676 /* Frameworks */,
 				58B511D91A9E6C8500147676 /* CopyFiles */,
+				BFE7D4121E83243A00DBDD2E /* Headers */,
 			);
 			buildRules = (
 			);
