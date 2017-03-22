@@ -4,6 +4,7 @@
 ## Getting started
 
 `$ npm install react-native-screenshot-detector --save`
+
 `$ react-native link react-native-screenshot-detector`
 
 
