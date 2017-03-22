@@ -11,8 +11,5 @@
     "react-native"
   ],
   "author": "gcarling",
-  "license": "MIT",
-  "peerDependencies": {
-    "react-native": "^0.40.0"
-  }
+  "license": "MIT"
 }
