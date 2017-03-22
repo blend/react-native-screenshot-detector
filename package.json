@@ -13,6 +13,6 @@
   "author": "gcarling",
   "license": "MIT",
   "peerDependencies": {
-    "react-native": "^0.29.0"
+    "react-native": "^0.40.0"
   }
 }
