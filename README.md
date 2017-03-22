@@ -1,6 +1,8 @@
 
 # react-native-screenshot-detector
 
+Note: this project is designed to work with the newer version of React Native library imports: namely, React Nave >= 0.40.0
+
 ## Getting started
 
 `$ npm install react-native-screenshot-detector --save`
@@ -12,6 +14,8 @@
 
 # iOS
 ```objectivec
+#import <RNScreenshotDetector/RNScreenshotDetector.h>
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
   // ... setup code
