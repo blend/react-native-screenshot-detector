@@ -2,7 +2,8 @@
 {
   "name": "react-native-screenshot-detector",
   "version": "1.0.0",
-  "description": "",
+  "homepage": "https://github.com/iamacup/react-native-screenshot-detector",
+  "description": "A tool for detecting ios screenshots on iOS",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,7 +14,7 @@
   "author": "gcarling",
   "repository": {
     "type": "git",
-    "url": "https://github.com/blendlabs/react-native-screenshot-detector"
+    "url": "https://github.com/iamacup/react-native-screenshot-detector"
   },
   "license": "MIT"
 }
