@@ -5,21 +5,28 @@ Note: this project is designed to work with the newer version of React Native li
 
 ## Getting started
 
-PRE React Native 0.60.0
+React Native < 0.60.0
 
 `$ npm install react-native-screenshot-detector`
 
 `$ react-native link react-native-screenshot-detector`
 
-POST React Native 0.60.0
+React Native >= 0.60.0
 
 `$ npm install react-native-screenshot-detector`
 
 ## Usage
 
+Update the AppDelegate.m file to include the following:
+
 # iOS
 ```objectivec
+/* RN >= 0.60.0 linked automatically */
+#import <RNScreenshotDetector.h>
+/* RN < 0.60.0 linked manually */
 #import <RNScreenshotDetector/RNScreenshotDetector.h>
+
+.........
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
