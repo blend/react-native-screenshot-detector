@@ -21,9 +21,6 @@ Update the AppDelegate.m file to include the following:
 
 # iOS
 ```objectivec
-/* RN >= 0.60.0 linked automatically */
-#import <RNScreenshotDetector.h>
-/* RN < 0.60.0 linked manually */
 #import <RNScreenshotDetector/RNScreenshotDetector.h>
 
 .........
