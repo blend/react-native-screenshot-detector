@@ -1,20 +1,29 @@
 
 # react-native-screenshot-detector
 
-Note: this project is designed to work with the newer version of React Native library imports, i.e. React Native >= 0.40.0
+Note: this project is designed to work with the newer version of React Native library imports, i.e. React Native >= 0.40.0, and will only work on iOS as Android does not provide the underlying functionality needed to track screenshots.
 
 ## Getting started
 
-`$ npm install react-native-screenshot-detector --save`
+React Native < 0.60.0
+
+`$ npm install react-native-screenshot-detector`
 
 `$ react-native link react-native-screenshot-detector`
 
+React Native >= 0.60.0
+
+`$ npm install react-native-screenshot-detector`
 
 ## Usage
+
+Update the AppDelegate.m file to include the following:
 
 # iOS
 ```objectivec
 #import <RNScreenshotDetector/RNScreenshotDetector.h>
+
+.........
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
